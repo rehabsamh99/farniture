@@ -3,6 +3,7 @@
     margin: 0px ;
     padding: 0px ;
 }
+
 nav{
     background-color:#2d5a4d;
 }
@@ -35,11 +36,13 @@ nav i:hover {
     margin-right: 50px;
     margin-left: 30px;
 }
+
 .div1 p{
     margin-top: 20px;
 }
 .div1 .btn{
     border-radius: 30px;
+    background-color: #2d5a4d;
 }
 .sec2 .card{
     border: none;
@@ -54,7 +57,7 @@ nav i:hover {
     right: .8rem;
     width: 30px;
     height: 30px;
-    background: #333;
+    background: #2d5a4d;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -195,7 +198,12 @@ nav i:hover {
     margin: 0px 20px;
     border: none;
 }
-
+.sec4 .card-title {
+    color: #518a6c;
+}
+.sec4 .card-text {
+    color: #2d5a4d  ;
+}
 .sec4 .card:hover{
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
@@ -206,7 +214,7 @@ nav i:hover {
     margin-left: 1rem;
     width: 50px;
     height: 50px;
-    background: grey;
+    background:#4f9c87;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -217,7 +225,7 @@ nav i:hover {
 
 .sec4 .card:hover .icon-wrapper {
     background:#2d5a4d;
-    color: white;
+    color: white !important;
 }
 
 .feature-card h3 {
@@ -378,10 +386,58 @@ nav i:hover {
 }
 
 
+::-webkit-scrollbar{
+    width: .6rem;
+    border-radius: .5rem;
+    background-color: hsl(228 , 8% ,76%);
+}
+::-webkit-scrollbar-thumb{
+    background-color: hsl(228, 8%, 64%);
+    border-radius: .5rem;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: hsl(228, 8%, 54%);
+    border-radius: .5rem;
+}
+
+
+.scrollup{
+    position: fixed;
+    right: 1rem;
+    bottom: -30%rem;
+    background-color:#2d5a4d;
+    box-shadow: 0 8px 12px hsla(228 , 66% , 45% , .1);
+    display: inline-flex;
+    padding: .35rem ;
+    color: var(--white);
+    font-size: 1.25rem ;
+    transition: .3s;
+    text-decoration: none;
+    border-radius: 30px;
+    color: #fff;
+}
+.scrollup:hover{
+    transform: translateY(-.25rem);
+    color:#2d5a4d;
+    background-color: var(--white);
+}
+
+.show-scroll{
+bottom: 8rem;
+}
+
+
+
+
+
+
+
+
+
 
 @media (max-width:800px) {
     .sec1 .card .row {
-        margin-top: 0px;
+        margin-top: 75px;
     }
     .sec1 img {
         width: 80%;
