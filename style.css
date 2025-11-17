@@ -97,6 +97,7 @@ nav i:hover {
     display: block;
 }
 
+
 @keyframes fadeEffect {
     from {
         opacity: 0.4;

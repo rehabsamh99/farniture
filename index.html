@@ -14,7 +14,7 @@
 <!---navbar-->
 <nav class="navbar navbar-expand-lg ">
     <div class="container-fluid">
-      <a class="navbar-brand text-light col-3 " href="#">Furni.</a>
+      <a class="navbar-brand text-light col-5 " href="#">Furni.</a>
       <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon text-light"></span>
       </button>
@@ -24,7 +24,7 @@
             <a class="nav-link text-light active" aria-current="page" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="#shop">Shop</a>
+            <a class="nav-link text-light " href="#shop">Shop</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-light" href="#feedback" >Feedback</a>
@@ -66,52 +66,70 @@
 </section>
 <!--section2--->
 <section class="sec2" id="shop">
-   
+
     <div class="div1">
         <h1>Crafted with<br> excellent <br> material.</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere similique debitis eius dolorum voluptatum aut!</p>
-        <button class="btn btn-dark ">Explore</button>
+        <button class="btn btn-dark">Explore</button>
     </div>
-     <div class="container">
-    <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col">
-          <div class="card w-75">
-            <img src="images/product-1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Nordic Chair</h5>
-                <p class="card-text">$50.00</p>
-             </div>
-             <div class="add-to-cart">
-                <i class="fas fa-plus"></i>
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+
+            <!-- الكاردات الأساسية -->
+            <div class="col product-card">
+                <div class="card w-75">
+                    <img src="images/product-1.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Nordic Chair</h5>
+                        <p class="card-text">$50.00</p>
+                    </div>
+                    <div class="add-to-cart">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card w-75">
-            <img src="images/product-2.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Kruzo Aero Chair</h5>
-                <p class="card-text">$78.00</p>
-              </div>
-              <div class="add-to-cart">
-                <i class="fas fa-plus"></i>
+
+            <div class="col product-card">
+                <div class="card w-75">
+                    <img src="images/product-2.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Kruzo Aero Chair</h5>
+                        <p class="card-text">$78.00</p>
+                    </div>
+                    <div class="add-to-cart">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card w-75">
-            <img src="images/product-3.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Ergonomic Chair</h5>
-                <p class="card-text">$43.00</p>
-              </div>
-              <div class="add-to-cart">
-                <i class="fas fa-plus"></i>
+
+            <div class="col product-card">
+                <div class="card w-75">
+                    <img src="images/product-3.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Ergonomic Chair</h5>
+                        <p class="card-text">$43.00</p>
+                    </div>
+                    <div class="add-to-cart">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
+
+             <div class="col product-card hidden">
+                <div class="card w-75">
+                    <img src="images/sofa.png" class="card-img-top mb-3 " alt="">
+                    <div class="card-body mb-3">
+                        <h5 class="card-title">Luxury Chair</h5>
+                        <p class="card-text">$65.00</p>
+                    </div>
+                    <div class="add-to-cart">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
 </section>
+
 <!--section3-->
 <section class=" sec3 testimonial-section" id="feedback">
   <h2 class="testimonial-title">Testimonials</h2>
