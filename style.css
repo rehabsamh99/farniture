@@ -651,3 +651,58 @@ bottom: 8rem;
         width: 100%;
     }
 }
+
+/* ===== Fix layout for iPhone 12 and similar screens ===== */
+@media (max-width: 420px) {
+
+    .modern-design-section {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .design-images {
+        position: relative;
+        width: 100%;
+        height: 320px; /* مساحة كافية لترتيب الصور */
+        margin-bottom: 40px;
+    }
+
+    .design-images img {
+        position: absolute;
+        border-radius: 10px;
+    }
+
+    /* الصورة الكبيرة */
+    .design-images .img1 {
+        width: 180px;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* الصورة اليمين */
+    .design-images .img2 {
+        width: 130px;
+        top: 160px;
+        right: 70px;
+    }
+
+    /* الصورة اللي تحت */
+    .design-images .img3 {
+        width: 110px;
+        bottom: 0;
+        left: 40px;
+    }
+
+    /* النص تحت الصور */
+    .design-text {
+        width: 100%;
+        padding: 0 20px;
+        margin-top: 0;
+    }
+
+    .design-text h2 {
+        font-size: 26px;
+    }
+}
